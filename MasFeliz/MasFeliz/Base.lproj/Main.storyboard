@@ -50,7 +50,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioN-m9-x2a">
                                 <rect key="frame" x="150" y="148" width="74" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Mensaje"/>
+                                <state key="normal" title="Frase"/>
                                 <connections>
                                     <action selector="getMessagePositive" destination="BYZ-38-t0r" eventType="touchUpInside" id="Br6-uB-Wr4"/>
                                 </connections>
