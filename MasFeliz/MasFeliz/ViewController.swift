@@ -10,7 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBOutlet weak var lblMessage: UILabel!
+    let colores = Colores()
+    let frases = Frases()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +26,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func getMessagePositive() {
-        lblMessage.text = "Nuevo Mensaje Positivo"
+        view.backgroundColor = colores.getColorAleatorio()
+        lblMessage.text = frases.getFraseAleatoria()
     }
     
 }
