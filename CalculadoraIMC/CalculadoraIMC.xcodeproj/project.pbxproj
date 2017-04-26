@@ -104,7 +104,6 @@
 				TargetAttributes = {
 					07F8EC8B1EAE805200D87127 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = PMD564329U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -269,7 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PMD564329U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CalculadoraIMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.woowrale.ios.CalculadoraIMC;
@@ -282,7 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PMD564329U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CalculadoraIMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.woowrale.ios.CalculadoraIMC;
