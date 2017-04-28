@@ -40,7 +40,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="textFieldDidEndEditingWithTextField:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="JsM-oH-uq5"/>
                                 </connections>
@@ -52,7 +52,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="textFieldDidEndEditingWithTextField:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="4hk-zj-vJj"/>
                                 </connections>

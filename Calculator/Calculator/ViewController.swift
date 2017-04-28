@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var display: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +23,42 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func touchDigit(_ sender: UIButton) {
+        let digit = sender.currentTitle!
+        var textCurrentDisplay = display.text!
+        
+        var operadores: Array<String> = Array()
+        //var operation: Double = 0.0
+        
+        print("textCurrentDisplay: ", textCurrentDisplay)
+        
+        switch digit {
+        case "+":
+            operadores.append(textCurrentDisplay)
+            operadores.append(digit)
+        case "-":
+            operadores.append(textCurrentDisplay)
+        case "*":
+            operadores.append(textCurrentDisplay)
+        case "/":
+            operadores.append(textCurrentDisplay)
+        case "%":
+            operadores.append(textCurrentDisplay)
+        case "+/-":
+            operadores.append(textCurrentDisplay)
+        case "AC":
+            textCurrentDisplay = "0"
+            display.text = textCurrentDisplay
+        case "=":
+            print("Equals", operadores.count)
+            for operador in operadores {
+                print("operation: ", operador)
+            }
+        default:
+            display.text = textCurrentDisplay + digit
+            print("touched \(digit) digit")
+        }
+        
+    }
 }
 
