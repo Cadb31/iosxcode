@@ -25,6 +25,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let iPeso: Double = Double(self.textPeso.text!)!
+        let iEstatura: Double = Double(self.textEstatura.text!)!
+        let totalIMC = calcularTotalIMC(peso: iPeso, estatura: iEstatura)
+        
+        let nextView = segue.destination as! ViewResults
+        nextView.indiceIM = totalIMC
+    }
+    
+    
     @IBAction func backgroundTap(sender: UIControl){    
         textPeso.resignFirstResponder()
         textEstatura.resignFirstResponder()
@@ -33,19 +43,22 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func textFieldDidEndEditing(_ textField: UITextField) {
         textField.resignFirstResponder()
     }
-    
 
-    @IBAction func calcularIMC() {
+    @IBAction func calcularIMC(_ sender: Any) {
+        let iPeso: Double = Double(self.textPeso.text!)!
+        let iEstatura: Double = Double(self.textEstatura.text!)!
+        let totalIMC = calcularTotalIMC(peso: iPeso, estatura: iEstatura)
+        
+        print("totalIMC: ", totalIMC)
+    }
     
+    func calcularTotalIMC(peso: Double, estatura: Double) ->Double{
         var totalIMC: Double
         
-        let peso: Double?
-        peso = Double(self.textPeso.text!)!
+        totalIMC = peso/(estatura * estatura)
+
+        return totalIMC
     
-        let estatura: Double = Double(self.textEstatura.text!)!
-        
-        totalIMC = peso!/(estatura * estatura)
-        print("Resultado: \(totalIMC)")
     }
 }
 

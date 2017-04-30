@@ -61,7 +61,7 @@
                                 <rect key="frame" x="159.5" y="432" width="56" height="30"/>
                                 <state key="normal" title="Calcular"/>
                                 <connections>
-                                    <action selector="calcularIMC" destination="BYZ-38-t0r" eventType="touchUpInside" id="k3p-PP-XEW"/>
+                                    <action selector="calcularIMC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7rz-KU-rln"/>
                                     <segue destination="o1v-Wa-xlC" kind="show" id="NO7-OU-dq0"/>
                                 </connections>
                             </button>
@@ -119,9 +119,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGd-fn-kYG">
-                                <rect key="frame" x="166" y="209" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGd-fn-kYG">
+                                <rect key="frame" x="169" y="209" width="38" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -130,11 +129,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="sgH-Vt-Xbg" firstAttribute="top" secondItem="pWh-Gj-RHg" secondAttribute="bottom" constant="68" id="1xo-dn-dk6"/>
+                            <constraint firstItem="vGd-fn-kYG" firstAttribute="centerX" secondItem="EbE-gU-yYO" secondAttribute="centerX" id="VTh-EW-Xr0"/>
                             <constraint firstItem="sgH-Vt-Xbg" firstAttribute="centerX" secondItem="EbE-gU-yYO" secondAttribute="centerX" id="dCe-AX-hWW"/>
+                            <constraint firstItem="vGd-fn-kYG" firstAttribute="top" secondItem="sgH-Vt-Xbg" secondAttribute="bottom" constant="56" id="ny3-kz-sL6"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="resultadoIMC" destination="vGd-fn-kYG" id="Zli-L7-xaU"/>
+                        <outlet property="totalIMC" destination="vGd-fn-kYG" id="9eg-O7-7qr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JiW-Kw-oqp" userLabel="First Responder" sceneMemberID="firstResponder"/>

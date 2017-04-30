@@ -10,8 +10,13 @@ import UIKit
 
 class ViewResults: UIViewController {
 
-    
+    var indiceIM:Double = 0
+    @IBOutlet weak var totalIMC: UILabel!
     @IBOutlet weak var resultadoIMC: UILabel!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        totalIMC.text = String(indiceIM)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
