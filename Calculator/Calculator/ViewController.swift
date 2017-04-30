@@ -11,54 +11,42 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var display: UILabel!
+    private var operations = CalculatorOperations()
+    var userTypingDigit = false;
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    var displayValue: Double{
+        get{
+            return Double(display.text!)!
+        }
+        set{
+            display.text = String(newValue)
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
     @IBAction func touchDigit(_ sender: UIButton) {
         let digit = sender.currentTitle!
-        var textCurrentDisplay = display.text!
-        
-        var operadores: Array<String> = Array()
-        //var operation: Double = 0.0
-        
-        print("textCurrentDisplay: ", textCurrentDisplay)
-        
-        switch digit {
-        case "+":
-            operadores.append(textCurrentDisplay)
-            operadores.append(digit)
-        case "-":
-            operadores.append(textCurrentDisplay)
-        case "*":
-            operadores.append(textCurrentDisplay)
-        case "/":
-            operadores.append(textCurrentDisplay)
-        case "%":
-            operadores.append(textCurrentDisplay)
-        case "+/-":
-            operadores.append(textCurrentDisplay)
-        case "AC":
-            textCurrentDisplay = "0"
-            display.text = textCurrentDisplay
-        case "=":
-            print("Equals", operadores.count)
-            for operador in operadores {
-                print("operation: ", operador)
-            }
-        default:
+        if userTypingDigit {
+            let textCurrentDisplay = display.text!
             display.text = textCurrentDisplay + digit
-            print("touched \(digit) digit")
+        }else{
+            display.text = digit
         }
+        userTypingDigit = true
+        print("touched \(digit) digit")
         
     }
+    
+    @IBAction func executeOperation(_ sender: UIButton) {
+        if userTypingDigit{
+            operations.setOperand(operand: displayValue)
+            userTypingDigit = false
+        }
+        
+        if let mathSymbol = sender.currentTitle{
+            operations.executeOperation(symbol: mathSymbol)
+        }
+        displayValue = operations.resultOperation
+    }
+    
 }
 
