@@ -18,6 +18,7 @@ class CalculatorOperations{
     }
 
     private var operations: Dictionary<String, Operation> = [
+        "√": Operation.UnaryOperation({sqrt($0)}),
         "+": Operation.BinaryOperation({$0 + $1}),
         "-": Operation.BinaryOperation({$0 - $1}),
         "×": Operation.BinaryOperation({$0 * $1}),
@@ -48,8 +49,8 @@ class CalculatorOperations{
             case .BinaryOperation(let function):
                 executePendingOperation()
                 pending = PendingBinaryOperation(binaryFunction: function, firstOperand: accumulator)
-            default:
-                print("Pending")
+            case .Equals:
+                executePendingOperation()
             }
         }
     }
