@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Calculator/ViewController.swift"
@@ -19,14 +19,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Calculator.ViewController.__deallocating_deinit"
                   moduleName = "Calculator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/carlos/Repositories/Github/iosxcode/Calculator/Calculator/ViewController.swift"
-                  timestampString = "515268717.62528"
+                  timestampString = "515332287.44604"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -34,14 +34,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Calculator.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Calculator.ViewController"
                   moduleName = "Calculator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/carlos/Repositories/Github/iosxcode/Calculator/Calculator/ViewController.swift"
-                  timestampString = "515268717.629988"
+                  timestampString = "515332287.481766"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -49,14 +49,14 @@
                   offsetFromSymbolStart = "70">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Calculator.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Calculator.ViewController"
                   moduleName = "Calculator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/carlos/Repositories/Github/iosxcode/Calculator/Calculator/ViewController.swift"
-                  timestampString = "515268717.632875"
+                  timestampString = "515332287.500465"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -64,14 +64,14 @@
                   offsetFromSymbolStart = "23">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Calculator.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Calculator.ViewController&gt;"
                   moduleName = "Calculator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/carlos/Repositories/Github/iosxcode/Calculator/Calculator/ViewController.swift"
-                  timestampString = "515268717.634765"
+                  timestampString = "515332287.516539"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -79,14 +79,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Calculator.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Calculator.ViewController&gt;"
                   moduleName = "Calculator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/carlos/Repositories/Github/iosxcode/Calculator/Calculator/ViewController.swift"
-                  timestampString = "515268717.636661"
+                  timestampString = "515332287.526562"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"

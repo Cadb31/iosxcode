@@ -9,12 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     @IBOutlet weak var display: UILabel!
+
     private var operations = CalculatorOperations()
-    var userTypingDigit = false;
-    
-    var displayValue: Double{
+    private var userTypingDigit = false;
+    private var displayValue: Double{
         get{
             return Double(display.text!)!
         }
@@ -47,6 +47,5 @@ class ViewController: UIViewController {
         }
         displayValue = operations.resultOperation
     }
-    
 }
 
