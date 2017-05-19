@@ -36,17 +36,24 @@ class InterfaceController: WKInterfaceController {
     }
 
     @IBAction func modificarPeso(_ value: Float) {
-        pesoActual = value
+        pesoActual += value
         pesoValor.setText(String(pesoActual))
     }
     
     @IBAction func modificarEstatura(_ value: Float) {
-        estaturaActual = value / 100
+        estaturaActual += value / 100
         estaturaValor.setText(String(estaturaActual))
     }
     
     @IBAction func calcularIMC() {
-        let imc = pesoActual	/ (estaturaActual * estaturaActual)
+        let imc = calcularIMC(peso: pesoActual, estatura: estaturaActual)
+        let contexto = Datos(descripcion:"Peso Normal", imc: imc)
+        pushController(withName: "IdentificadorDatos", context: contexto)
         print("imc: ", imc)
+    }
+    
+    func calcularIMC(peso: Float, estatura: Float) -> Float{
+        return pesoActual	/ (estaturaActual * estaturaActual)
+    
     }
 }

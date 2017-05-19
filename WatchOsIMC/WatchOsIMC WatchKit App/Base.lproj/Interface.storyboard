@@ -17,10 +17,10 @@
                         <group width="1" alignment="left" id="P8O-Z3-Rkp">
                             <items>
                                 <label alignment="left" text="Peso:" id="tgR-50-eir"/>
-                                <label alignment="left" text="PesoValor" id="kbw-O8-fzF"/>
+                                <label alignment="left" text="50" id="kbw-O8-fzF"/>
                             </items>
                         </group>
-                        <slider width="1" alignment="left" value="1" maximum="200" steps="200" id="6Nj-Gs-L0S">
+                        <slider width="1" alignment="left" continuous="YES" value="50" maximum="200" steps="200" id="6Nj-Gs-L0S">
                             <connections>
                                 <action selector="modificarPeso:" destination="AgC-eL-Hgc" id="ObU-Gp-RFa"/>
                             </connections>
@@ -28,10 +28,10 @@
                         <group width="1" alignment="left" id="cwF-At-uzn">
                             <items>
                                 <label alignment="left" text="Estatura:" id="i3S-Y6-lEo"/>
-                                <label alignment="left" text="EstaturaValor" id="eA4-bS-gZM"/>
+                                <label alignment="left" text="0.5" id="eA4-bS-gZM"/>
                             </items>
                         </group>
-                        <slider width="1" alignment="left" value="50" minimum="50" maximum="230" steps="230" id="U3n-QC-h2F">
+                        <slider width="1" alignment="left" continuous="YES" value="50" minimum="50" maximum="230" steps="180" id="U3n-QC-h2F">
                             <connections>
                                 <action selector="modificarEstatura:" destination="AgC-eL-Hgc" id="rxc-4m-77C"/>
                             </connections>
@@ -49,6 +49,21 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--IdentificadorDatos-->
+        <scene sceneID="owh-hE-I0s">
+            <objects>
+                <controller identifier="IdentificadorDatos" id="dHg-JO-Oaq" customClass="VistaDatos" customModule="WatchOsIMC_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Masa Corporal:" id="hS2-hs-xEl"/>
+                        <label alignment="left" id="Vvz-eQ-AxK"/>
+                    </items>
+                    <connections>
+                        <outlet property="imcResultado" destination="Vvz-eQ-AxK" id="sRc-RN-lDI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="328"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

@@ -21,6 +21,8 @@
 		0737B6781ECB7EE8000ED5A9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737B6771ECB7EE8000ED5A9 /* NotificationController.swift */; };
 		0737B67A1ECB7EE8000ED5A9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737B6791ECB7EE8000ED5A9 /* ComplicationController.swift */; };
 		0737B67C1ECB7EE9000ED5A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0737B67B1ECB7EE9000ED5A9 /* Assets.xcassets */; };
+		0790C4041ECE1CF400F548D7 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790C4031ECE1CF400F548D7 /* Datos.swift */; };
+		0790C4061ECE1E0100F548D7 /* VistaDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790C4051ECE1E0100F548D7 /* VistaDatos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		0737B6791ECB7EE8000ED5A9 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		0737B67B1ECB7EE9000ED5A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0737B67D1ECB7EE9000ED5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0790C4031ECE1CF400F548D7 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		0790C4051ECE1E0100F548D7 /* VistaDatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaDatos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,8 @@
 				0737B67B1ECB7EE9000ED5A9 /* Assets.xcassets */,
 				0737B67D1ECB7EE9000ED5A9 /* Info.plist */,
 				0737B6711ECB7EE8000ED5A9 /* Supporting Files */,
+				0790C4031ECE1CF400F548D7 /* Datos.swift */,
+				0790C4051ECE1E0100F548D7 /* VistaDatos.swift */,
 			);
 			path = "WatchOsIMC WatchKit Extension";
 			sourceTree = "<group>";
@@ -325,10 +331,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0790C4041ECE1CF400F548D7 /* Datos.swift in Sources */,
 				0737B6781ECB7EE8000ED5A9 /* NotificationController.swift in Sources */,
 				0737B67A1ECB7EE8000ED5A9 /* ComplicationController.swift in Sources */,
 				0737B6761ECB7EE8000ED5A9 /* ExtensionDelegate.swift in Sources */,
 				0737B6741ECB7EE8000ED5A9 /* InterfaceController.swift in Sources */,
+				0790C4061ECE1E0100F548D7 /* VistaDatos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
