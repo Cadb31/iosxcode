@@ -12,8 +12,7 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
-    @IBOutlet var mensaje: WKInterfaceLabel!
-    
+    @IBOutlet var mensaje: WKInterfaceLabel!    
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
@@ -31,10 +30,4 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
-
-    @IBAction func saludarWatchOS() {
-        
-        mensaje.setText("Hola Mundo Watch OS")
-        
-    }
 }

@@ -54,11 +54,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func calcularTotalIMC(peso: Double, estatura: Double) ->Double{
         var totalIMC: Double
-        
         totalIMC = peso/(estatura * estatura)
-
-        return totalIMC
-    
+        return totalIMC    
     }
 }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
     <device id="watch38" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -14,19 +14,27 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WathOs_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="Saludar" id="F3S-fi-nkM">
-                            <connections>
-                                <action selector="saludarWatchOS" destination="AgC-eL-Hgc" id="a5W-Zs-vGp"/>
-                            </connections>
-                        </button>
-                        <label width="1" alignment="left" text="Bienvenido" textAlignment="center" id="H4O-14-C2P"/>
+                        <label width="1" alignment="left" text="Pizza Menu" textAlignment="center" id="H4O-14-C2P"/>
+                        <button width="1" alignment="left" title="Nuevo" id="F3S-fi-nkM"/>
                     </items>
                     <connections>
                         <outlet property="mensaje" destination="H4O-14-C2P" id="qzI-K0-etW"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="169" y="348"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="TXZ-bp-TCl">
+            <objects>
+                <controller id="owS-P7-8Tx">
+                    <items>
+                        <table alignment="left" id="ncS-Ys-gJA"/>
+                        <table alignment="left" id="o5Z-b0-gJo"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="409" y="348"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
