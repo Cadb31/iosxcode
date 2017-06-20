@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070D01C71EF289CD005DFE14 /* JSONConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D01C61EF289CD005DFE14 /* JSONConnection.swift */; };
 		07BEFA5D1EF1B92600CE2545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BEFA5C1EF1B92600CE2545 /* AppDelegate.swift */; };
 		07BEFA621EF1B92600CE2545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BEFA601EF1B92600CE2545 /* Main.storyboard */; };
 		07BEFA641EF1B92600CE2545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BEFA631EF1B92600CE2545 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070D01C61EF289CD005DFE14 /* JSONConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONConnection.swift; sourceTree = "<group>"; };
 		07BEFA591EF1B92600CE2545 /* ClimaTablesJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimaTablesJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BEFA5C1EF1B92600CE2545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07BEFA611EF1B92600CE2545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				07BEFA681EF1B92600CE2545 /* Info.plist */,
 				07BEFA6E1EF1BA1F00CE2545 /* TemperaturasViewController.swift */,
 				07BEFA701EF1BA3F00CE2545 /* CiudadesTableViewController.swift */,
+				070D01C61EF289CD005DFE14 /* JSONConnection.swift */,
 			);
 			path = ClimaTablesJSON;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07BEFA711EF1BA3F00CE2545 /* CiudadesTableViewController.swift in Sources */,
+				070D01C71EF289CD005DFE14 /* JSONConnection.swift in Sources */,
 				07BEFA6F1EF1BA1F00CE2545 /* TemperaturasViewController.swift in Sources */,
 				07BEFA5D1EF1B92600CE2545 /* AppDelegate.swift in Sources */,
 			);
@@ -306,6 +310,7 @@
 				07BEFA6D1EF1B92600CE2545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

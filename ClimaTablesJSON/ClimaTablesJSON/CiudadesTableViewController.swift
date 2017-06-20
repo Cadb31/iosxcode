@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import os.log
 
 class CiudadesTableViewController: UITableViewController {
 
+    var ciudadesCloud: Array<Array<String>> = Array<Array<String>>()
+    var codCiudad = String()
     let ciudades = ["Paris", "Cd. Mexico", "Madrid", "Irapuato"]
     
     override func viewDidLoad() {
@@ -20,6 +23,10 @@ class CiudadesTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        ciudadesCloud.append(["Paris", "395269"])
+        ciudadesCloud.append(["Cd. Mexico", "615702"])
+        ciudadesCloud.append(["Madrid", "766273"])
+        ciudadesCloud.append(["Irapuato", "90289715"])
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,7 +35,6 @@ class CiudadesTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -43,10 +49,21 @@ class CiudadesTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CiudadesCells", for: indexPath)
         cell.textLabel?.text = ciudades[indexPath.row]
-
         return cell
     }
  
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        let navigation: TemperaturasViewController = segue.destination as! TemperaturasViewController
+        let indexPathRow = tableView.indexPathForSelectedRow!
+        codCiudad = ciudadesCloud[indexPathRow.row][1]
+        
+        print(indexPathRow.row, codCiudad)
+        navigation.codCiudad = codCiudad
+        
+    }
+ 
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -83,14 +100,6 @@ class CiudadesTableViewController: UITableViewController {
     }
     */
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

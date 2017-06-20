@@ -10,9 +10,20 @@ import UIKit
 
 class TemperaturasViewController: UIViewController {
 
+    var codCiudad = String()
+    var json = JSONCOnnection()
+    @IBOutlet weak var temperature: UILabel!
+
+    override func viewWillAppear(_ animated: Bool) {
+        do{
+            temperature.text = try json.getJsonData(codCiudad: codCiudad)
+        } catch {
+            print("Se ha producido una excepcion al obtener el json")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
