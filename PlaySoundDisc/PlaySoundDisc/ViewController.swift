@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let soundURL = Bundle.main.url(forResource: "Nirvana_Smells_Like_Teen Spirit", withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "Nirvana_Smells_Like_Teen_Spirit", withExtension: "mp3")
         do{
             reproductor = try AVAudioPlayer(contentsOf: soundURL!)
         }catch{

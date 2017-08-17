@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		070FF6E31F2DF48700F0A50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FF6E21F2DF48700F0A50A /* AppDelegate.swift */; };
-		070FF6E51F2DF48700F0A50A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FF6E41F2DF48700F0A50A /* ViewController.swift */; };
-		070FF6E81F2DF48700F0A50A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070FF6E61F2DF48700F0A50A /* Main.storyboard */; };
-		070FF6EA1F2DF48700F0A50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070FF6E91F2DF48700F0A50A /* Assets.xcassets */; };
-		070FF6ED1F2DF48700F0A50A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070FF6EB1F2DF48700F0A50A /* LaunchScreen.storyboard */; };
-		070FF6F91F2DFAAD00F0A50A /* Nirvana_Smells_Like_Teen_Spirit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 070FF6F81F2DFAAD00F0A50A /* Nirvana_Smells_Like_Teen_Spirit.mp3 */; };
-		070FF6FC1F2DFACE00F0A50A /* nirvana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 070FF6FB1F2DFACE00F0A50A /* nirvana.jpg */; };
+		07FE4CAB1F44AB5500C4AB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4CAA1F44AB5500C4AB04 /* AppDelegate.swift */; };
+		07FE4CAD1F44AB5500C4AB04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4CAC1F44AB5500C4AB04 /* ViewController.swift */; };
+		07FE4CB01F44AB5500C4AB04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FE4CAE1F44AB5500C4AB04 /* Main.storyboard */; };
+		07FE4CB21F44AB5500C4AB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FE4CB11F44AB5500C4AB04 /* Assets.xcassets */; };
+		07FE4CB51F44AB5500C4AB04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FE4CB31F44AB5500C4AB04 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		070FF6DF1F2DF48700F0A50A /* PlaySoundDisc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaySoundDisc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		070FF6E21F2DF48700F0A50A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		070FF6E41F2DF48700F0A50A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		070FF6E71F2DF48700F0A50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		070FF6E91F2DF48700F0A50A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		070FF6EC1F2DF48700F0A50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		070FF6EE1F2DF48700F0A50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		070FF6F81F2DFAAD00F0A50A /* Nirvana_Smells_Like_Teen_Spirit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Nirvana_Smells_Like_Teen_Spirit.mp3; path = ../../../../../Documents/Coursera/Sounds/Nirvana_Smells_Like_Teen_Spirit.mp3; sourceTree = "<group>"; };
-		070FF6FB1F2DFACE00F0A50A /* nirvana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nirvana.jpg; path = ../../../../../Documents/Coursera/Images/nirvana.jpg; sourceTree = "<group>"; };
+		07FE4CA71F44AB5500C4AB04 /* ManejoLocalizacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManejoLocalizacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FE4CAA1F44AB5500C4AB04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07FE4CAC1F44AB5500C4AB04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07FE4CAF1F44AB5500C4AB04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07FE4CB11F44AB5500C4AB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07FE4CB41F44AB5500C4AB04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07FE4CB61F44AB5500C4AB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		070FF6DC1F2DF48700F0A50A /* Frameworks */ = {
+		07FE4CA41F44AB5500C4AB04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,83 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		070FF6D61F2DF48700F0A50A = {
+		07FE4C9E1F44AB5500C4AB04 = {
 			isa = PBXGroup;
 			children = (
-				070FF6E11F2DF48700F0A50A /* PlaySoundDisc */,
-				070FF6E01F2DF48700F0A50A /* Products */,
+				07FE4CA91F44AB5500C4AB04 /* ManejoLocalizacion */,
+				07FE4CA81F44AB5500C4AB04 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		070FF6E01F2DF48700F0A50A /* Products */ = {
+		07FE4CA81F44AB5500C4AB04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				070FF6DF1F2DF48700F0A50A /* PlaySoundDisc.app */,
+				07FE4CA71F44AB5500C4AB04 /* ManejoLocalizacion.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		070FF6E11F2DF48700F0A50A /* PlaySoundDisc */ = {
+		07FE4CA91F44AB5500C4AB04 /* ManejoLocalizacion */ = {
 			isa = PBXGroup;
 			children = (
-				070FF6FA1F2DFAB300F0A50A /* Media */,
-				070FF6E21F2DF48700F0A50A /* AppDelegate.swift */,
-				070FF6E41F2DF48700F0A50A /* ViewController.swift */,
-				070FF6E61F2DF48700F0A50A /* Main.storyboard */,
-				070FF6E91F2DF48700F0A50A /* Assets.xcassets */,
-				070FF6EB1F2DF48700F0A50A /* LaunchScreen.storyboard */,
-				070FF6EE1F2DF48700F0A50A /* Info.plist */,
+				07FE4CAA1F44AB5500C4AB04 /* AppDelegate.swift */,
+				07FE4CAC1F44AB5500C4AB04 /* ViewController.swift */,
+				07FE4CAE1F44AB5500C4AB04 /* Main.storyboard */,
+				07FE4CB11F44AB5500C4AB04 /* Assets.xcassets */,
+				07FE4CB31F44AB5500C4AB04 /* LaunchScreen.storyboard */,
+				07FE4CB61F44AB5500C4AB04 /* Info.plist */,
 			);
-			path = PlaySoundDisc;
-			sourceTree = "<group>";
-		};
-		070FF6FA1F2DFAB300F0A50A /* Media */ = {
-			isa = PBXGroup;
-			children = (
-				070FF6FB1F2DFACE00F0A50A /* nirvana.jpg */,
-				070FF6F81F2DFAAD00F0A50A /* Nirvana_Smells_Like_Teen_Spirit.mp3 */,
-			);
-			name = Media;
+			path = ManejoLocalizacion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		070FF6DE1F2DF48700F0A50A /* PlaySoundDisc */ = {
+		07FE4CA61F44AB5500C4AB04 /* ManejoLocalizacion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 070FF6F11F2DF48700F0A50A /* Build configuration list for PBXNativeTarget "PlaySoundDisc" */;
+			buildConfigurationList = 07FE4CB91F44AB5500C4AB04 /* Build configuration list for PBXNativeTarget "ManejoLocalizacion" */;
 			buildPhases = (
-				070FF6DB1F2DF48700F0A50A /* Sources */,
-				070FF6DC1F2DF48700F0A50A /* Frameworks */,
-				070FF6DD1F2DF48700F0A50A /* Resources */,
+				07FE4CA31F44AB5500C4AB04 /* Sources */,
+				07FE4CA41F44AB5500C4AB04 /* Frameworks */,
+				07FE4CA51F44AB5500C4AB04 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PlaySoundDisc;
-			productName = PlaySoundDisc;
-			productReference = 070FF6DF1F2DF48700F0A50A /* PlaySoundDisc.app */;
+			name = ManejoLocalizacion;
+			productName = ManejoLocalizacion;
+			productReference = 07FE4CA71F44AB5500C4AB04 /* ManejoLocalizacion.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		070FF6D71F2DF48700F0A50A /* Project object */ = {
+		07FE4C9F1F44AB5500C4AB04 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Woowrale;
 				TargetAttributes = {
-					070FF6DE1F2DF48700F0A50A = {
+					07FE4CA61F44AB5500C4AB04 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PMD564329U;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 070FF6DA1F2DF48700F0A50A /* Build configuration list for PBXProject "PlaySoundDisc" */;
+			buildConfigurationList = 07FE4CA21F44AB5500C4AB04 /* Build configuration list for PBXProject "ManejoLocalizacion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -123,56 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 070FF6D61F2DF48700F0A50A;
-			productRefGroup = 070FF6E01F2DF48700F0A50A /* Products */;
+			mainGroup = 07FE4C9E1F44AB5500C4AB04;
+			productRefGroup = 07FE4CA81F44AB5500C4AB04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				070FF6DE1F2DF48700F0A50A /* PlaySoundDisc */,
+				07FE4CA61F44AB5500C4AB04 /* ManejoLocalizacion */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		070FF6DD1F2DF48700F0A50A /* Resources */ = {
+		07FE4CA51F44AB5500C4AB04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070FF6ED1F2DF48700F0A50A /* LaunchScreen.storyboard in Resources */,
-				070FF6F91F2DFAAD00F0A50A /* Nirvana_Smells_Like_Teen_Spirit.mp3 in Resources */,
-				070FF6EA1F2DF48700F0A50A /* Assets.xcassets in Resources */,
-				070FF6FC1F2DFACE00F0A50A /* nirvana.jpg in Resources */,
-				070FF6E81F2DF48700F0A50A /* Main.storyboard in Resources */,
+				07FE4CB51F44AB5500C4AB04 /* LaunchScreen.storyboard in Resources */,
+				07FE4CB21F44AB5500C4AB04 /* Assets.xcassets in Resources */,
+				07FE4CB01F44AB5500C4AB04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		070FF6DB1F2DF48700F0A50A /* Sources */ = {
+		07FE4CA31F44AB5500C4AB04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070FF6E51F2DF48700F0A50A /* ViewController.swift in Sources */,
-				070FF6E31F2DF48700F0A50A /* AppDelegate.swift in Sources */,
+				07FE4CAD1F44AB5500C4AB04 /* ViewController.swift in Sources */,
+				07FE4CAB1F44AB5500C4AB04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		070FF6E61F2DF48700F0A50A /* Main.storyboard */ = {
+		07FE4CAE1F44AB5500C4AB04 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				070FF6E71F2DF48700F0A50A /* Base */,
+				07FE4CAF1F44AB5500C4AB04 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		070FF6EB1F2DF48700F0A50A /* LaunchScreen.storyboard */ = {
+		07FE4CB31F44AB5500C4AB04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				070FF6EC1F2DF48700F0A50A /* Base */,
+				07FE4CB41F44AB5500C4AB04 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -180,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		070FF6EF1F2DF48700F0A50A /* Debug */ = {
+		07FE4CB71F44AB5500C4AB04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		070FF6F01F2DF48700F0A50A /* Release */ = {
+		07FE4CB81F44AB5500C4AB04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,27 +257,27 @@
 			};
 			name = Release;
 		};
-		070FF6F21F2DF48700F0A50A /* Debug */ = {
+		07FE4CBA1F44AB5500C4AB04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PMD564329U;
-				INFOPLIST_FILE = PlaySoundDisc/Info.plist;
+				INFOPLIST_FILE = ManejoLocalizacion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.woowrale.ios.PlaySoundDisc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woowrale.ios.ManejoLocalizacion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		070FF6F31F2DF48700F0A50A /* Release */ = {
+		07FE4CBB1F44AB5500C4AB04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PMD564329U;
-				INFOPLIST_FILE = PlaySoundDisc/Info.plist;
+				INFOPLIST_FILE = ManejoLocalizacion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.woowrale.ios.PlaySoundDisc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woowrale.ios.ManejoLocalizacion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,25 +286,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		070FF6DA1F2DF48700F0A50A /* Build configuration list for PBXProject "PlaySoundDisc" */ = {
+		07FE4CA21F44AB5500C4AB04 /* Build configuration list for PBXProject "ManejoLocalizacion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				070FF6EF1F2DF48700F0A50A /* Debug */,
-				070FF6F01F2DF48700F0A50A /* Release */,
+				07FE4CB71F44AB5500C4AB04 /* Debug */,
+				07FE4CB81F44AB5500C4AB04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		070FF6F11F2DF48700F0A50A /* Build configuration list for PBXNativeTarget "PlaySoundDisc" */ = {
+		07FE4CB91F44AB5500C4AB04 /* Build configuration list for PBXNativeTarget "ManejoLocalizacion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				070FF6F21F2DF48700F0A50A /* Debug */,
-				070FF6F31F2DF48700F0A50A /* Release */,
+				07FE4CBA1F44AB5500C4AB04 /* Debug */,
+				07FE4CBB1F44AB5500C4AB04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 070FF6D71F2DF48700F0A50A /* Project object */;
+	rootObject = 07FE4C9F1F44AB5500C4AB04 /* Project object */;
 }
